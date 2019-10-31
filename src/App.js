@@ -10,8 +10,8 @@ function App() {
       </header>
       <section className="moviecoverrow">
         <figure classname="moviecover">Black Mirror</figure>
-        <figure classname="moviecover">breakingbad</figure>
-        <figure classname="moviecover">deathnote</figure>
+        <figure classname="moviecover">Breakingbad</figure>
+        <figure classname="moviecover">Deathnote</figure>
       </section>
       <section className="moviecoverrow">
         <figure classname="moviecover">Game Of Thrones</figure>

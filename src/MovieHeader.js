@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import avengersendgame from "./images/avengersendgame.jpeg";
 
-export default function MovieHeader(props) {
-    return (
-        <header className="moviecoverheader">
-        <img src={props.img} alt={`${props.alt} Movie Cover`} />
-      </header>
-    );
+export default function MovieHeader() {
+  return (
+    <header className="moviecoverheader">
+      <img src={avengersendgame} alt={`Avengers End Game`} />
+    </header>
+  );
 }

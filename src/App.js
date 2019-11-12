@@ -12,7 +12,6 @@ function App() {
         <Route exact path='/' component={MovieHeader} />
         <Route exact path='/' component={Gallery} />
         <Route exact path='/details' component={Details} />
-
       </div>
     </Router>
   );

@@ -11,14 +11,14 @@ export default function Gallery() {
   return (
     <>
       <section className="moviecoverrow">
-        <Movie img={blackmirror} alt={`Black Mirror`} title={`Black Mirror`} />
-        <Movie img={breakingbad} alt={`Breaking Bad`} title={`Breaking Bad`} />
-        <Movie img={deathnote} alt={`Death Note`} title={`Death Note`} />
+        <Movie id="blackmirror" img={blackmirror} alt={`Black Mirror`} title={`Black Mirror`} />
+        <Movie id ="breakingbad" img={breakingbad} alt={`Breaking Bad`} title={`Breaking Bad`} />
+        <Movie id ="deathnote" img={deathnote} alt={`Death Note`} title={`Death Note`} />
       </section>
       <section className="moviecoverrow">
-        <Movie img={got} alt={`Game Of Thrones`} title={`Game Of Thrones`} />
-        <Movie img={thewalkingdead} alt={`The Walking Dead`} title={`The Walking Dead`} />
-        <Movie img={thewire} alt={`The Wire`} title={`The Wire`} />
+        <Movie id ="gameofthrones" img={got} alt={`Game Of Thrones`} title={`Game Of Thrones`} />
+        <Movie id = "thewalkingdead" img={thewalkingdead} alt={`The Walking Dead`} title={`The Walking Dead`} />
+        <Movie id = "thewire" img={thewire} alt={`The Wire`} title={`The Wire`} />
       </section>
     </>
   );

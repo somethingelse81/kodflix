@@ -9,7 +9,7 @@ import Movie from "./Movie";
 
 export default function Gallery() {
   return (
-    <>
+    <div className="galleryContainer">
       <section className="moviecoverrow">
         <Movie id="blackmirror" img={blackmirror} alt={`Black Mirror`} title={`Black Mirror`} />
         <Movie id ="breakingbad" img={breakingbad} alt={`Breaking Bad`} title={`Breaking Bad`} />
@@ -20,6 +20,6 @@ export default function Gallery() {
         <Movie id = "thewalkingdead" img={thewalkingdead} alt={`The Walking Dead`} title={`The Walking Dead`} />
         <Movie id = "thewire" img={thewire} alt={`The Wire`} title={`The Wire`} />
       </section>
-    </>
+    </div>
   );
 }
